@@ -1,0 +1,9 @@
+{
+  "OrthancURL" : "192.168.1.101:8042",
+  "PersistenceTimespan" : 0,
+  "ArchivePath" : "./dicomArchive/",
+  "DatabaseBackend" : "SQLite",
+  "SQLite" : {
+      "FilePath" : "sqllite.db"
+  }
+}
