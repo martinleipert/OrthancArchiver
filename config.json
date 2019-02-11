@@ -1,9 +1,21 @@
+
+// Config json for the dicom archiver
 {
+  // The url of the server including the port
   "OrthancURL" : "192.168.1.101:8042",
-  "PersistenceTimespan" : 0,
+
+  // Timespan in days
+  "PersistenceTimespan" : 180,
+
+  // Path to archive the files
   "ArchivePath" : "./dicomArchive/",
+
+  // The database Backend: SQLite is currently the only implemented
   "DatabaseBackend" : "SQLite",
+
+  // Options for the SQLite Backend
   "SQLite" : {
+      // Filename of the SQLite database
       "FilePath" : "sqllite.db"
   }
 }

@@ -1,6 +1,15 @@
 from sqlalchemy import Column, Integer, String
 from Base import Base
 
+"""
+Martin Leipert
+martin.leipert@fau.de
+
+Store a Dicom Instance from Orthanc in an archive database
+with the Object Realtional Mapper SQLAlchemy
+
+-> Currently unused
+"""
 
 class ArchivedInstance(Base):
     __tablename__ = 'archived_instances'
